@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: inline-block;
+    margin: 9% 0 0 42%;
+    background-color: black;
+    border-radius: 10px;
+    max-width: 348px;
+}
+
+.button {
+    font-size: 18px;
+    height: 52px;
+    width: 68px;
+    margin: 6px;
+    border-radius: 8px;
+    background-color: #43b7bd;
+    border: none;
+    color: white;
+}
+
+input#writedata{
+    width: 93%;
+    margin: 10px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: #415436;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.main-btn {
+    margin: 10px;
+}
+
+button#erase {
+    width: 45%;
+    border: none;
+    color: white;
+    background-color: #d12a36;
+}
+
+button#clear{
+    border: none;
+    background-color: #565f67;
+}
+
+button#equal{
+    border: none;
+    background-color: #187141;
+}
+
+#numsum{
+    font-size: 18px;
+    height: 52px;
+    width: 68px;
+    margin: 6px;
+    border-radius: 8px;
+    background-color: hsl(40deg 100% 53%);
+    color: black;
+    border: none;
+}
+
+#numminus{
+    font-size: 18px;
+    height: 52px;
+    width: 68px;
+    margin: 6px;
+    border-radius: 8px;
+    background-color: hsl(40deg 100% 53%);
+    color: black;
+    border: none;
+}
+
+#numMulti{
+    font-size: 18px;
+    height: 52px;
+    width: 68px;
+    margin: 6px;
+    border-radius: 8px;
+    background-color: hsl(40deg 100% 53%);
+    color: black;
+    border: none;
+}
+
+#numdivi{
+    font-size: 18px;
+    height: 52px;
+    width: 68px;
+    margin: 6px;
+    border-radius: 8px;
+    background-color: hsl(40deg 100% 53%);
+    color: black;
+    border: none;
+}

@@ -1,0 +1,36 @@
+<div class="container">
+  <input class="input_cal" id="writedata" (keyup)="check($event)" (keypress)="blockChar($event)">
+  <div class="main-btn ">
+      <div class="row">
+          <button class="button" id="one" value="1" (click)="display($event)">1</button>
+          <button class="button" id="two" value="2" (click)="display($event)">2</button>
+          <button class="button" id="three" value="3" (click)="display($event)">3</button>
+          <button class="button" id="numsum" value="+" (click)="display($event)">+</button>
+      </div>
+      <div class="row">
+          <button class="button" id="four" value="4" (click)="display($event)">4</button>
+          <button class="button" id="five" value="5" (click)="display($event)">5</button>
+          <button class="button" id="six" value="6" (click)="display($event)">6</button>
+          <button class="button" id="numminus" value="-" (click)="display($event)">-</button>
+      </div>
+      <div class="row">
+          <button class="button" id="seven" value="7" (click)="display($event)">7</button>
+          <button class="button" id="eight"value="8" (click)="display($event)">8</button>
+          <button class="button" id="nine" value="9" (click)="display($event)">9</button>
+          <button class="button" id="numMulti" value="*" (click)="display($event)">*</button>
+      </div>
+      <div class="row">
+          <button class="button" id="zero" value="0" (click)="display($event)">0</button>
+          <button class="button" id="doublezero" value="00" (click)="display($event)">00</button>
+          <button class="button" id="point" value="." (click)="display($event)">.</button>
+          <button class="button" id="numdivi" value="/" (click)="display($event)">/</button>
+      </div>
+      <div class="row">
+          <button class="button" id="erase" (click)="allClear()">AC</button>
+          <button class="button" id="clear" (click)="oneClear()">C</button>
+          <button class="button" id="equal" (click)="getAnswer()">=</button>
+      </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
